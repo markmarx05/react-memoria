@@ -30,7 +30,7 @@ const App = () => {
 
   // vericar se os abertos são iguais
   useEffect(() => {
-    if(shownCount == 2) {
+    if(shownCount === 2) {
       let opened = gridItems.filter(item => item.shown === true);
       if(opened.length === 2) {
 
