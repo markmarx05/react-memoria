@@ -1,4 +1,4 @@
-import { useEffect, useInsertionEffect, useState } from 'react';
+import { useEffect,  useState } from 'react';
 import * as C from './App.styles';
 
 import logoImage from './assets/devmemory_logo.png';
